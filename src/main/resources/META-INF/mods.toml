@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[35,)"
+license = "Apache license 2.0"
+
+[[mods]]
+modId = "monolith"
+version = "${file.jarVersion}"
+displayName = "Monolith"
+#updateJSONURL="http://myurl.me/"
+#displayURL="http://example.com/"
+#logoFile="monolith.png"
+credits = "By Shadew"
+authors = "Shadew"
+description = '''
+A mod featuring the metal monoliths discovered in late 2020
+'''
+
+[[dependencies.monolith]]
+modId = "forge"
+mandatory = true
+versionRange = "[35.1.13,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.monolith]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.4]"
+ordering = "NONE"
+side = "BOTH"
